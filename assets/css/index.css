@@ -1,0 +1,68 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 10%;
+    row-gap: 20px;
+    padding: 40px;
+    background-color:  #2e2be9;
+}
+
+.result h3 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.result h2,
+.result p {
+    color:  #ffffffb9;
+}
+
+.result h2 {
+    font-weight: 800;
+}
+
+.result p {
+    list-style: normal;
+    line-height: 15px;
+    letter-spacing: -0.36px;
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.result div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: center;
+    background-color: #1125d4;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.result div span {
+   font-size: 3rem;
+   color: #fff;
+   font-weight: 700;
+}
+
+.result div p {
+    color:#ffffffb9;
+ }
